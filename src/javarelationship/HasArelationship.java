@@ -1,4 +1,7 @@
 package javarelationship;
+//Example :
+    //Student HAS-A Address
+    //Car HAS-A Engine.
 class Address{
     //example of HAs-A relationship, where class Student has a class Address.
     String city;
@@ -30,7 +33,7 @@ class Student{
 
 }
 
-public class JavaRelationship {
+public class HasArelationship {
     public static void main(String[] args) {
         Student student = new Student("Nitish",433);
         student.displayInfo();
