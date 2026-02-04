@@ -3,7 +3,7 @@ import java.util.Scanner;
 import static java.lang.System.exit;
 
 public class Calculator {
-    
+
     public void subtract(int a, int b){
         System.out.println("Diff of "+a+" and "+b+" is: "+ (a-b));
     }
