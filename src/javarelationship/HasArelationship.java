@@ -1,6 +1,6 @@
 package javarelationship;
-//Example :
-    //Student HAS-A Address
+//Example:
+    //A Student HAS-A Address
     //Car HAS-A Engine.
 class Address{
     //example of HAs-A relationship, where class Student has a class Address.

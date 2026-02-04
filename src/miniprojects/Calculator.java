@@ -1,3 +1,5 @@
+package miniprojects;
+
 import java.util.Scanner;
 
 import static java.lang.System.exit;
@@ -23,7 +25,7 @@ public class Calculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Calculator c = new Calculator();
-        System.out.println("Calculator: ");
+        System.out.println("miniprojects.Calculator: ");
         while (true){
             System.out.println("1. add 2. sub 3.Div 4.Mul 5 Mod 0. exit");
             int op = sc.nextInt();
