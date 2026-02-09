@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="232fbd19-8836-4aef-9274-a535944096c2" name="Changes" comment="commit &quot;all&quot;">
-      <change afterPath="$PROJECT_DIR$/src/abstraction/Abstraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/methodOverloading/CompileTimePolymorphism.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/methodOverriding/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/methodOverriding/Example1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/encapsulation/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaceInJava/InterfaceEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaceInJava/LooseCouplingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaceInJava/MethodImplementationInsideInterfaces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaceInJava/MultipleInheritance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstraction/Abstraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/Abstraction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,11 +56,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Abstraction.executor": "Run",
+    "Application.Bank.executor": "Run",
     "Application.Calculator.executor": "Run",
     "Application.CompileTimePolymorphism.executor": "Run",
     "Application.Example.executor": "Run",
     "Application.Example1.executor": "Run",
+    "Application.LooseCouplingExample.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MethodImplementationInsideInterfaces.executor": "Run",
+    "Application.MultipleInheritance.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -66,7 +72,7 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CompileTimePolymorphism">
+  <component name="RunManager" selected="Application.Bank">
     <configuration name="Abstraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="abstraction.Abstraction" />
       <module name="OOP" />
@@ -80,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="methodOverriding.Calculator" />
+    <configuration name="Bank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="encapsulation.Bank" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="methodOverriding.*" />
+          <option name="PATTERN" value="encapsulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompileTimePolymorphism" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="methodOverloading.CompileTimePolymorphism" />
+    <configuration name="LooseCouplingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaceInJava.LooseCouplingExample" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="methodOverloading.*" />
+          <option name="PATTERN" value="interfaceInJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="methodOverriding.Example1" />
+    <configuration name="MethodImplementationInsideInterfaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaceInJava.MethodImplementationInsideInterfaces" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="methodOverriding.*" />
+          <option name="PATTERN" value="interfaceInJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,20 +125,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="MultipleInheritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaceInJava.MultipleInheritance" />
       <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interfaceInJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CompileTimePolymorphism" />
-        <item itemvalue="Application.Example1" />
-        <item itemvalue="Application.Calculator" />
+        <item itemvalue="Application.Bank" />
+        <item itemvalue="Application.MethodImplementationInsideInterfaces" />
+        <item itemvalue="Application.LooseCouplingExample" />
+        <item itemvalue="Application.MultipleInheritance" />
         <item itemvalue="Application.Abstraction" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770313636893</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit &quot;all&quot;">
+      <option name="closed" value="true" />
+      <created>1770662857047</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770662857047</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

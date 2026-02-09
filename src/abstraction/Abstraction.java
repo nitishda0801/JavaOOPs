@@ -6,7 +6,7 @@ abstract class Vehicle{
     void displayTyres(){
         System.out.println("Total no of tyres: "+no_of_tyres);
     }
-    abstract void start();
+    abstract void start();// if we try to create an object of abstract class, we can't call this method as its incomplete
 }
 class Car extends Vehicle{
 
@@ -35,6 +35,8 @@ public class Abstraction {
         Vehicle scooter = new Scooter();
         scooter.start();
         scooter.displayTyres();
+
+//        Vehicle v = new Vehicle();// we can't create object becoz it contains abstract method which is not implemented, we can't call method without implemented.
 
 
     }
