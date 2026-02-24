@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="232fbd19-8836-4aef-9274-a535944096c2" name="Changes" comment="commit &quot;added all oop topic till now&quot;">
-      <change afterPath="$PROJECT_DIR$/src/collections/collections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java8Feature/MainApp1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java8Feature/MainAppOptional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java8Feature/Sort2DMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java8Feature/StreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trieDataStructure/TrieImplementation.java" afterDir="false" />
+    <list default="true" id="232fbd19-8836-4aef-9274-a535944096c2" name="Changes" comment="commit &quot;Optional class&quot;">
+      <change afterPath="$PROJECT_DIR$/src/java8Feature/MethodReferencesExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java8Feature/MainAppOptional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java8Feature/MainAppOptional.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +62,7 @@
     "Application.MainApp1.executor": "Run",
     "Application.MainAppOptional.executor": "Run",
     "Application.MethodImplementationInsideInterfaces.executor": "Run",
+    "Application.MethodReferencesExample.executor": "Run",
     "Application.MultipleInheritance.executor": "Run",
     "Application.Sort2DMatrix.executor": "Run",
     "Application.StreamExample.executor": "Run",
@@ -78,7 +75,7 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MainAppOptional">
+  <component name="RunManager" selected="Application.MethodReferencesExample">
     <configuration name="MainApp1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8Feature.MainApp1" />
       <module name="OOP" />
@@ -105,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8Feature.StreamExample" />
+    <configuration name="MethodReferencesExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8Feature.MethodReferencesExample" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
@@ -118,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrieImplementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trieDataStructure.TrieImplementation" />
+    <configuration name="StreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8Feature.StreamExample" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="trieDataStructure.*" />
+          <option name="PATTERN" value="java8Feature.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MethodReferencesExample" />
         <item itemvalue="Application.MainAppOptional" />
         <item itemvalue="Application.MainApp1" />
         <item itemvalue="Application.StreamExample" />
         <item itemvalue="Application.collections" />
-        <item itemvalue="Application.TrieImplementation" />
       </list>
     </recent_temporary>
   </component>
@@ -186,12 +183,21 @@
       <option name="project" value="LOCAL" />
       <updated>1770675078584</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit &quot;Optional class&quot;">
+      <option name="closed" value="true" />
+      <created>1771955032490</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1771955032490</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit &quot;all&quot;" />
     <MESSAGE value="commit &quot;added all oop topic till now&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit &quot;added all oop topic till now&quot;" />
+    <MESSAGE value="commit &quot;Optional class&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit &quot;Optional class&quot;" />
   </component>
 </project>

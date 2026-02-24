@@ -16,11 +16,8 @@ public class MainAppOptional {
         nameOpt.ifPresent(name-> System.out.println("Hello, "+name));
 
         // Optional with null value
-        Optional emptyOpt = Optional.ofNullable(null);
+        Optional<Object> emptyOpt = Optional.ofNullable(null);
         System.out.println(emptyOpt);
-        if(emptyOpt.isPresent()){
-            System.out.println(emptyOpt.get());
-        }
 
         // Using orElse()
         Object name1  = emptyOpt.orElse("DefaultName");
