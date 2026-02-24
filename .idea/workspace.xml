@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="232fbd19-8836-4aef-9274-a535944096c2" name="Changes" comment="commit &quot;all&quot;">
-      <change afterPath="$PROJECT_DIR$/src/encapsulation/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaceInJava/InterfaceEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaceInJava/LooseCouplingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaceInJava/MethodImplementationInsideInterfaces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaceInJava/MultipleInheritance.java" afterDir="false" />
+    <list default="true" id="232fbd19-8836-4aef-9274-a535944096c2" name="Changes" comment="commit &quot;added all oop topic till now&quot;">
+      <change afterPath="$PROJECT_DIR$/src/collections/collections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8Feature/MainApp1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8Feature/MainAppOptional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8Feature/Sort2DMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8Feature/StreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/trieDataStructure/TrieImplementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/Abstraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/Abstraction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +63,14 @@
     "Application.Example1.executor": "Run",
     "Application.LooseCouplingExample.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MainApp1.executor": "Run",
+    "Application.MainAppOptional.executor": "Run",
     "Application.MethodImplementationInsideInterfaces.executor": "Run",
     "Application.MultipleInheritance.executor": "Run",
+    "Application.Sort2DMatrix.executor": "Run",
+    "Application.StreamExample.executor": "Run",
+    "Application.TrieImplementation.executor": "Run",
+    "Application.collections.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -72,13 +78,13 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Bank">
-    <configuration name="Abstraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstraction.Abstraction" />
+  <component name="RunManager" selected="Application.MainAppOptional">
+    <configuration name="MainApp1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8Feature.MainApp1" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="abstraction.*" />
+          <option name="PATTERN" value="java8Feature.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="encapsulation.Bank" />
+    <configuration name="MainAppOptional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8Feature.MainAppOptional" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="encapsulation.*" />
+          <option name="PATTERN" value="java8Feature.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LooseCouplingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfaceInJava.LooseCouplingExample" />
+    <configuration name="StreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8Feature.StreamExample" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interfaceInJava.*" />
+          <option name="PATTERN" value="java8Feature.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodImplementationInsideInterfaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfaceInJava.MethodImplementationInsideInterfaces" />
+    <configuration name="TrieImplementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trieDataStructure.TrieImplementation" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interfaceInJava.*" />
+          <option name="PATTERN" value="trieDataStructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultipleInheritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfaceInJava.MultipleInheritance" />
+    <configuration name="collections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.collections" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interfaceInJava.*" />
+          <option name="PATTERN" value="collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Bank" />
-        <item itemvalue="Application.MethodImplementationInsideInterfaces" />
-        <item itemvalue="Application.LooseCouplingExample" />
-        <item itemvalue="Application.MultipleInheritance" />
-        <item itemvalue="Application.Abstraction" />
+        <item itemvalue="Application.MainAppOptional" />
+        <item itemvalue="Application.MainApp1" />
+        <item itemvalue="Application.StreamExample" />
+        <item itemvalue="Application.collections" />
+        <item itemvalue="Application.TrieImplementation" />
       </list>
     </recent_temporary>
   </component>
@@ -172,11 +178,20 @@
       <option name="project" value="LOCAL" />
       <updated>1770662857047</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit &quot;added all oop topic till now&quot;">
+      <option name="closed" value="true" />
+      <created>1770675078584</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770675078584</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit &quot;all&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit &quot;all&quot;" />
+    <MESSAGE value="commit &quot;added all oop topic till now&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit &quot;added all oop topic till now&quot;" />
   </component>
 </project>
