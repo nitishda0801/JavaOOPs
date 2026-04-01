@@ -20,7 +20,7 @@ public class StreamAPIExample {
 
         List<String> sortedNames = names.stream()
                 .filter(str->str.startsWith("d"))
-                .map(str->str.toUpperCase())
+                .map(String::toUpperCase)
                 .sorted(Comparator.reverseOrder())
                 .toList();
 

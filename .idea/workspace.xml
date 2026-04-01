@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="232fbd19-8836-4aef-9274-a535944096c2" name="Changes" comment="commit &quot;Stream API&quot;">
-      <change afterPath="$PROJECT_DIR$/src/java8Feature/DateAPIExample.java" afterDir="false" />
+    <list default="true" id="232fbd19-8836-4aef-9274-a535944096c2" name="Changes" comment="commit &quot;Date API&quot;">
+      <change afterPath="$PROJECT_DIR$/src/inheritance/MultipleInheritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streamAPICodingQuestions/AverageOfEvenNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streamAPICodingQuestions/CountWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streamAPICodingQuestions/DuplicateElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streamAPICodingQuestions/HighestSalaryInDept.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java8Feature/StreamAPIExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java8Feature/StreamAPIExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,41 +53,45 @@
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Abstraction.executor": "Run",
-    "Application.Bank.executor": "Run",
-    "Application.Calculator.executor": "Run",
-    "Application.CompileTimePolymorphism.executor": "Run",
-    "Application.DateAPIExample.executor": "Run",
-    "Application.Example.executor": "Run",
-    "Application.Example1.executor": "Run",
-    "Application.LooseCouplingExample.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MainApp1.executor": "Run",
-    "Application.MainAppOptional.executor": "Run",
-    "Application.MethodImplementationInsideInterfaces.executor": "Run",
-    "Application.MethodReferencesExample.executor": "Run",
-    "Application.MultipleInheritance.executor": "Run",
-    "Application.Sort2DMatrix.executor": "Run",
-    "Application.StreamAPIExample.executor": "Run",
-    "Application.StreamExample.executor": "Run",
-    "Application.TrieImplementation.executor": "Run",
-    "Application.collections.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Abstraction.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AverageOfEvenNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Bank.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompileTimePolymorphism.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountWords.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DateAPIExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DuplicateElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HighestSalaryInDept.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LooseCouplingExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainApp1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainAppOptional.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodImplementationInsideInterfaces.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodReferencesExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultipleInheritance.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sort2DMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamAPIExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TrieImplementation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.collections.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.DateAPIExample">
-    <configuration name="DateAPIExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8Feature.DateAPIExample" />
+}</component>
+  <component name="RunManager" selected="Application.HybridInheritance">
+    <configuration name="CountWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streamAPICodingQuestions.CountWords" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8Feature.*" />
+          <option name="PATTERN" value="streamAPICodingQuestions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainApp1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8Feature.MainApp1" />
+    <configuration name="DuplicateElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streamAPICodingQuestions.DuplicateElements" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8Feature.*" />
+          <option name="PATTERN" value="streamAPICodingQuestions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainAppOptional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8Feature.MainAppOptional" />
+    <configuration name="HighestSalaryInDept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streamAPICodingQuestions.HighestSalaryInDept" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8Feature.*" />
+          <option name="PATTERN" value="streamAPICodingQuestions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodReferencesExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8Feature.MethodReferencesExample" />
+    <configuration name="HybridInheritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.HybridInheritance" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8Feature.*" />
+          <option name="PATTERN" value="inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamAPIExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8Feature.StreamAPIExample" />
+    <configuration name="MultipleInheritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.MultipleInheritance" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8Feature.*" />
+          <option name="PATTERN" value="inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DateAPIExample" />
-        <item itemvalue="Application.StreamAPIExample" />
-        <item itemvalue="Application.MethodReferencesExample" />
-        <item itemvalue="Application.MainAppOptional" />
-        <item itemvalue="Application.MainApp1" />
+        <item itemvalue="Application.HybridInheritance" />
+        <item itemvalue="Application.MultipleInheritance" />
+        <item itemvalue="Application.CountWords" />
+        <item itemvalue="Application.DuplicateElements" />
+        <item itemvalue="Application.HighestSalaryInDept" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771958809543</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commit &quot;Date API&quot;">
+      <option name="closed" value="true" />
+      <created>1771959223759</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1771959223759</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -217,6 +234,7 @@
     <MESSAGE value="commit &quot;Optional class&quot;" />
     <MESSAGE value="commit &quot;Method References&quot;" />
     <MESSAGE value="commit &quot;Stream API&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit &quot;Stream API&quot;" />
+    <MESSAGE value="commit &quot;Date API&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit &quot;Date API&quot;" />
   </component>
 </project>
