@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="232fbd19-8836-4aef-9274-a535944096c2" name="Changes" comment="commit collection framework">
+      <change afterPath="$PROJECT_DIR$/src/collectionFramework/map/MapInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collections/SetInterfaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/SetInterfaces.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collections/ArrayListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collectionFramework/Collection/ArrayListExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collections/EnumerationForLegacyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collectionFramework/Collection/EnumerationForLegacyClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collections/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collectionFramework/Collection/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collections/IteratorOrListIteratorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collectionFramework/Collection/IteratorOrListIteratorExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collections/LegacyClasses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collectionFramework/Collection/LegacyClasses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collections/SetInterfaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collectionFramework/Collection/SetInterfaces.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +76,8 @@
     "Application.Main.executor": "Run",
     "Application.MainApp1.executor": "Run",
     "Application.MainAppOptional.executor": "Run",
+    "Application.MapInterface.executor": "Run",
+    "Application.Mapclasses.executor": "Run",
     "Application.MethodImplementationInsideInterfaces.executor": "Run",
     "Application.MethodReferencesExample.executor": "Run",
     "Application.MultipleInheritance.executor": "Run",
@@ -86,35 +94,9 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SetInterfaces">
-    <configuration name="ArrayListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.ArrayListExample" />
-      <module name="OOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MapInterface">
     <configuration name="EnumerationForLegacyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collections.EnumerationForLegacyClass" />
-      <module name="OOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IteratorOrListIteratorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.IteratorOrListIteratorExample" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
@@ -139,6 +121,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MapInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collectionFramework.map.MapInterface" />
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collectionFramework.map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mapclasses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collectionFramework.map.Mapclasses" />
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collectionFramework.map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SetInterfaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collections.SetInterfaces" />
       <module name="OOP" />
@@ -154,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapInterface" />
+        <item itemvalue="Application.Mapclasses" />
         <item itemvalue="Application.SetInterfaces" />
         <item itemvalue="Application.LegacyClasses" />
         <item itemvalue="Application.EnumerationForLegacyClass" />
-        <item itemvalue="Application.IteratorOrListIteratorExample" />
-        <item itemvalue="Application.ArrayListExample" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775412134621</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="commit collection framework">
+      <option name="closed" value="true" />
+      <created>1775413582411</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1775413582411</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
